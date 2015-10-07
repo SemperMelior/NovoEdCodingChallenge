@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>NovoEd Classmate Search</title>
+        <meta charset="utf-8" />
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+
+    <body>
+        <!--<canvas id="image-canvas" width="660" height="440"></canvas>
+        <img alt="Nature" src="images/nature.jpg" /> -->
+
+        <!-- <div id="footer">
+            <span>Filters:</span>
+            <a href="#" id="grayscale" class="button">Grayscale</a>
+            <a href="#" id="brighten" class="button">Brighten</a>
+            <a href="#" id="threshold" class="button">Threshold</a>
+            <a href="#" id="reset" class="button">Reset</a>
+        </div> -->
+        <input type="file" id="csv-file" name="files"/>
+        <form>
+            Location Search: <br>
+            <input type="text" name="location">
+            <a href="#" id="search" class="submit">Search</a>
+            <br>
+        </form>
+        <ul id="text-display"></ul>
+
+        <!-- JS -->
+        <script src="js/PapaParse-master/papaparse.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/listeners.js"></script>
+        <script src="js/jquery-1.4.4.min.js"></script>
+        <script src="js/jquery.csv-0.71.js"></script>
+        <script src="js/jquery-2.1.4.js"></script>
+    </body>
+</html>
